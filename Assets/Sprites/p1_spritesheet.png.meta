@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 29fca5fe60c08d746a4f2b727d5f80dc
+guid: 049551712fff4d64bb1f2f5a3e33ca91
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: blockerBody
+      name: p1_duck
       rect:
         serializedVersion: 2
-        x: 203
-        y: 102
-        width: 51
-        height: 51
+        x: 365
+        y: 119
+        width: 69
+        height: 71
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,251 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5db954c1032c80970800000000000000
-      internalID: 8721434190291508181
+      spriteID: 1f8e7df6a37ddecf0800000000000000
+      internalID: -221284160686790415
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blockerMad
-      rect:
-        serializedVersion: 2
-        x: 136
-        y: 36
-        width: 51
-        height: 51
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 133b17d6727a79f90800000000000000
-      internalID: -6946900112413969615
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: blockerSad
-      rect:
-        serializedVersion: 2
-        x: 188
-        y: 36
-        width: 51
-        height: 51
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b01e16f831a5f7df0800000000000000
-      internalID: -180326420015095541
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fishDead
+      name: p1_front
       rect:
         serializedVersion: 2
         x: 0
-        y: 42
-        width: 66
-        height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b66a3d28691865c20800000000000000
-      internalID: 3194883469105931883
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fishSwim1
-      rect:
-        serializedVersion: 2
-        x: 76
-        y: 111
-        width: 66
-        height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 433485180f193b710800000000000000
-      internalID: 1707869145851773748
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fishSwim2
-      rect:
-        serializedVersion: 2
-        x: 73
-        y: 67
-        width: 62
-        height: 43
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ec596cb28510acb50800000000000000
-      internalID: 6614100480950179278
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flyDead
-      rect:
-        serializedVersion: 2
-        x: 143
-        y: 120
-        width: 59
-        height: 33
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 399bd03088b2ea6c0800000000000000
-      internalID: -4130315945085388397
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flyFly1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 85
-        width: 72
-        height: 36
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d48592c5d0c0209a0800000000000000
-      internalID: -6268434479825987507
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flyFly2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 122
-        width: 75
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7d6b3a2e7562c5490800000000000000
-      internalID: -7756282299332446505
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pokerMad
-      rect:
-        serializedVersion: 2
-        x: 255
-        y: 7
-        width: 48
-        height: 146
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 08b49fa0fc162cbc0800000000000000
-      internalID: -3764338796658078848
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pokerSad
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 7
-        width: 48
-        height: 146
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6eda340adb2b731a0800000000000000
-      internalID: -6829793782376714778
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slimeDead
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 29
-        width: 59
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cb60d7b74d1bc2580800000000000000
-      internalID: -8850503641526892868
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slimeWalk1
-      rect:
-        serializedVersion: 2
-        x: 52
         y: 0
-        width: 50
-        height: 28
+        width: 66
+        height: 92
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -383,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: da3db18a4cac56e50800000000000000
-      internalID: 6802065758195798957
+      spriteID: 727336787dea4d650800000000000000
+      internalID: 6256818023037089575
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slimeWalk2
+      name: p1_hurt
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2
-        width: 51
-        height: 26
+        x: 438
+        y: 196
+        width: 69
+        height: 92
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -404,20 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 648a1d3793cb9ec20800000000000000
-      internalID: 3236324762184689734
+      spriteID: 626a9fd6045e8cbd0800000000000000
+      internalID: -2609583919175457242
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: snailShell
+      name: p1_jump
       rect:
         serializedVersion: 2
-        x: 103
-        y: 4
-        width: 44
-        height: 30
+        x: 438
+        y: 101
+        width: 67
+        height: 94
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -425,62 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1bcf2557c64fab5a0800000000000000
-      internalID: -6504617965121241935
+      spriteID: 2d32061de6d4b76f0800000000000000
+      internalID: -685869379889388590
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: snailShell_upsidedown
-      rect:
-        serializedVersion: 2
-        x: 148
-        y: 5
-        width: 44
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fee1d9e40d7fbf8b0800000000000000
-      internalID: -5117224077532258577
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: snailWalk1
-      rect:
-        serializedVersion: 2
-        x: 143
-        y: 88
-        width: 54
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3224c5e1feaa7aaa0800000000000000
-      internalID: -6149758822167854557
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: snailWalk2
+      name: p1_stand
       rect:
         serializedVersion: 2
         x: 67
-        y: 35
-        width: 57
-        height: 31
+        y: 0
+        width: 66
+        height: 92
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -488,8 +215,239 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 17bd8c15d7ff61de0800000000000000
-      internalID: -1362620923524883599
+      spriteID: a982d3096e3d0b6c0800000000000000
+      internalID: -4129567871082878822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: p1_walk01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 72
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df32d28c4896ca250800000000000000
+      internalID: 5957252426119324669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: p1_walk02
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 191
+        width: 72
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 830700fb1f89ac5d0800000000000000
+      internalID: -3041450434276331464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: p1_walk03
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 191
+        width: 72
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7717257f3fee40880800000000000000
+      internalID: -8645522653050670729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: p1_walk04
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 93
+        width: 72
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d4710365a2d9d40800000000000000
+      internalID: 5592672861926411568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: p1_walk05
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 93
+        width: 72
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6fd981c96a89baf0800000000000000
+      internalID: -380120506712858769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: p1_walk06
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 93
+        width: 72
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5117cdb105cd2ef0800000000000000
+      internalID: -131232202854297251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: p1_walk07
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 191
+        width: 72
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c54b00549f973210800000000000000
+      internalID: 1312693275748681161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: p1_walk08
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 191
+        width: 72
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac42c7305a27e5570800000000000000
+      internalID: 8457323203302008010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: p1_walk09
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 93
+        width: 72
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2503db90f7fee2590800000000000000
+      internalID: -7696951384226320302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: p1_walk10
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 191
+        width: 72
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11dce30da70c43f10800000000000000
+      internalID: 2248633747677039889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: p1_walk11
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 93
+        width: 72
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 950b8b1e40fc21eb0800000000000000
+      internalID: -4750507037048655783
       vertices: []
       indices: 
       edges: []
@@ -505,24 +463,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      slimeWalk2: 3236324762184689734
-      flyFly1: -6268434479825987507
-      blockerSad: -180326420015095541
-      snailShell_upsidedown: -5117224077532258577
-      fishDead: 3194883469105931883
-      pokerSad: -6829793782376714778
-      slimeDead: -8850503641526892868
-      snailShell: -6504617965121241935
-      blockerMad: -6946900112413969615
-      snailWalk2: -1362620923524883599
-      flyDead: -4130315945085388397
-      flyFly2: -7756282299332446505
-      pokerMad: -3764338796658078848
-      slimeWalk1: 6802065758195798957
-      blockerBody: 8721434190291508181
-      fishSwim1: 1707869145851773748
-      snailWalk1: -6149758822167854557
-      fishSwim2: 6614100480950179278
+      p1_stand: -4129567871082878822
+      p1_duck: -221284160686790415
+      p1_walk11: -4750507037048655783
+      p1_walk04: 5592672861926411568
+      p1_walk02: -3041450434276331464
+      p1_walk01: 5957252426119324669
+      p1_walk06: -131232202854297251
+      p1_walk05: -380120506712858769
+      p1_walk07: 1312693275748681161
+      p1_walk10: 2248633747677039889
+      p1_walk03: -8645522653050670729
+      p1_walk09: -7696951384226320302
+      p1_walk08: 8457323203302008010
+      p1_front: 6256818023037089575
+      p1_jump: -685869379889388590
+      p1_hurt: -2609583919175457242
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
